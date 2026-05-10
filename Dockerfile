@@ -1,5 +1,3 @@
-FROM n8nio/n8n:latest
-
-ENV N8N_RUNNERS_ENABLED=false
+FROM n8nio/n8n:1.45.1
 
 EXPOSE 5678
